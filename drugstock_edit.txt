@@ -1,0 +1,12 @@
+UPDATE drug_stock set drug = replace(drug, "0s", "0's");
+UPDATE drug_stock set drug = replace(drug, "1s", "1's");
+UPDATE drug_stock set drug = replace(drug, "2s", "2's");
+UPDATE drug_stock set drug = replace(drug, "3s", "3's");
+UPDATE drug_stock set drug = replace(drug, "4s", "4's");
+UPDATE drug_stock set drug = replace(drug, "5s", "5's");
+UPDATE drug_stock set drug = replace(drug, "6s", "6's");
+UPDATE drug_stock set drug = replace(drug, "7s", "7's");
+UPDATE drug_stock set drug = replace(drug, "8s", "8's");
+UPDATE drug_stock set drug = replace(drug, "9s", "9's");
+
+UPDATE drug_stock set drug = replace(drug, "0s", "0's")
